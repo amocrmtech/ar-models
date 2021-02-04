@@ -17,7 +17,7 @@
     "opis/closure": "^3.6@dev",
     "yiisoft/arrays": "^1",
     "yiisoft/files": "^3.0@dev",
-    "amocrmtech/base": "~0"
+    "amocrmtech/base": "~0.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master"
