@@ -1,0 +1,45 @@
+{
+  "name": "amocrmtech/ar-models",
+  "description": "AR Models",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Kulikov",
+      "email": "r.v.kulikov@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-pdo": "*",
+    "yiisoft/yii2": "~2.0.30",
+    "yiisoft/composer-config-plugin": "dev-master",
+    "opis/closure": "^3.6@dev",
+    "yiisoft/arrays": "^1",
+    "yiisoft/files": "^3.0@dev",
+    "amocrmtech/base": "~0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "amocrmtech\\models\\ar\\": "src/"
+    }
+  },
+  "extra": {
+    "config-plugin": {
+      "params": [
+        "config/params.php",
+        "?config/params-local.php"
+      ],
+      "common": "config/common.php"
+    }
+  }
+}
